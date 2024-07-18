@@ -1,0 +1,98 @@
+
+.wp-block-live-blogging-plugin-live-blog-update{
+    border-top: 2px solid #D34E48;
+    padding-top: 10px;
+    margin-top: 35px;
+}
+.wp-block-live-blogging-plugin-live-blog-update .live-blog-timestamp{
+    color: #D34E48;
+    font-size: 15px;
+    font-weight: normal;
+}
+.wp-block-live-blogging-plugin-live-blog-update .live-blog-heading{
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+.wp-block-live-blogging-plugin-live-blog-update img{
+    width: 100% !important;
+    padding-top: 20px;
+}
+.wp-block-live-blogging-plugin-live-blog-update p{
+ font-weight: 500;
+    margin: 0;
+}
+.wp-block-live-blogging-plugin-live-blog-update img ~ p{
+    margin-top: 10px;
+}
+body#tinymce.wp-editor {
+    max-width: 100% !important;
+}
+
+.video-seo-youtube-player {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+    background: transparent
+}
+
+.video-seo-youtube-player .video-seo-youtube-embed-loader,.video-seo-youtube-player embed,.video-seo-youtube-player iframe,.video-seo-youtube-player object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: transparent
+}
+
+.wp-block-embed__wrapper.video-seo-youtube-embed-wrapper:before {
+    display: none!important
+}
+
+.video-seo-youtube-player .video-seo-youtube-picture {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border: none;
+    height: auto;
+    cursor: pointer
+}
+
+.video-seo-youtube-player .video-seo-youtube-picture img {
+    width: 100%
+}
+
+.video-seo-youtube-picture-replaced-srcset img {
+    margin-top: -8.7%
+}
+
+@media screen and (max-width: 800px) {
+    .video-seo-youtube-player .video-seo-youtube-picture img {
+        margin-top:-8.7%
+    }
+}
+
+.video-seo-youtube-embed-loader:focus,.video-seo-youtube-embed-loader:hover {
+    -webkit-filter: brightness(75%)
+}
+
+.video-seo-youtube-player .video-seo-youtube-player-play {
+    height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background: url(https://savageventures-develop.go-vip.net/wp-content/plugins/wpseo-video/assets/play-button.png) no-repeat;
+    cursor: pointer
+}

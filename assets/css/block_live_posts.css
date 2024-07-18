@@ -1,0 +1,129 @@
+.live-blog-entry {
+    border-bottom: 1px solid #ccc;
+    /* Optional: if you prefer a border instead of <hr> */
+    /* padding-bottom: 1em; */
+    /* margin-bottom: 1em; */
+}
+
+.live-blog-timestamp {
+    color: red;
+    font-weight: bold;
+    display: block;
+}
+
+.live-blog-heading {
+    font-weight: bold;
+}
+
+.live-blog-content {
+    font-weight: bold;
+}
+
+.live-blog-separator {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+/* Live Blog Update Block Container */
+.wp-block-live-blogging-plugin-live-blog-update.live-blog-entry {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Date and Time Label */
+.liveblog-single-meta-box label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Date and Time Input */
+#live-blog-datetime {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Heading Label */
+label[for="live-blog-heading"] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Heading TextControl */
+#live-blog-heading {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Content Label */
+label[for="live-blog-content"] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Content Textarea */
+#live-blog-content {
+    width: auto;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+}
+
+/* Coverage Start Time Label */
+label[for="live-blog-coverage-start-time"] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Coverage Start Time Input */
+#live-blog-coverage-start-time {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Coverage End Time Label */
+label[for="live-blog-coverage-end-time"] {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Coverage End Time Input */
+#live-blog-coverage-end-time {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Timestamp for Saved Entry */
+.live-blog-timestamp {
+    color: #f00;
+    font-weight: bold;
+}
+
+/* Content for Saved Entry */
+.live-blog-content {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
