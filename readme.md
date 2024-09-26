@@ -45,3 +45,8 @@ If you encounter any issues or have questions about the Live Blog plugin, please
 
 ## Contact
 For any inquiries, please contact us at umarkhtab.te@gmail.com.
+
+## Author
+
+Umar Khtab 
+umarkhtab.te@gmail.com
