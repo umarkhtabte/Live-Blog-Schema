@@ -6,6 +6,8 @@
  * Version: 1.0
  * Author: Umar Khtab
  */
+
+
 function enqueue_admin_script()
 {
     // Enqueue the script only on the admin dashboard
@@ -168,6 +170,7 @@ function add_live_blog_posting_schema_markup()
 
 add_action('wp_head', 'add_live_blog_posting_schema_markup');
 
+//Umar Social Media Links Embed Functions
 function embed_social_media_urls($content) {
     $content = preg_replace_callback('/https?:\/\/twitter\.com\/(\w+)\/status\/(\d+)(?:\?.*)?(?![^<]*>)/', 'embed_oembed', $content);
     $content = preg_replace_callback('/https?:\/\/www\.instagram\.com\/p\/([a-zA-Z0-9_-]+)(?![^<]*<\/a>)/', 'embed_oembed', $content);
