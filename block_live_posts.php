@@ -5,6 +5,7 @@
  * Description: Adds live-blogging functionality to your WordPress site.
  * Version: 1.0
  * Author: Umar Khtab
+ * Auther URI: https://umarkhtab.wuaze.com/
  */
 
 
